@@ -98,10 +98,6 @@ class SpringBootSpringdataTestApplicationTests {
 	private UsersRepository usersRepository;
 
 	@Test
-	void contextLoads() {
-	}
-
-	@Test
 	public void testSave(){
 		Users users = new Users();
 		users.setAddress("北京市海淀");
