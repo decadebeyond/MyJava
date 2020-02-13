@@ -1,6 +1,6 @@
 ### 学习SpringData的第一天
 ## 1、SpringData简介
-  在我的理解看来，SpringData的作用与MyBatis以及Hibernate的作用相仿，都是对数据库进行操作。然后Sun公司自己开发的SpringData同样是对数据库进行操作的。但是它有什么不同呢。
+  在我的理解看来，==SpringData的作用与MyBatis以及Hibernate的作用相仿，都是对数据库进行操作。==
   SpringData以及JPA规范为我们提供了Repository层的实现，我们可能只需要声明我们将要做的操作的java方法，以一定的规范声明方法的方法名，使springdata对方法自动识别，然后生成对应的sql语句并对数据库操作。而且springdata+jpa还提供注解表示实体类，并自动在数据库中创建表。
   可能我们只需要按规范创建实体类，声明要对数据库进行操作的方法以及方法名，springdata底层就会直接帮我们写sql语句、创建数据表。
   
